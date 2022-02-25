@@ -40,13 +40,44 @@ img{
     justify-content: center;
     width: 90%;
     margin: auto;
+    height: auto;
     
   
 }
 .search-content{
+    height: auto;
     width: 100%;
     margin-top: 30px;
     display: grid;
     grid-gap: 15px;
     grid-template:auto / repeat(auto-fit, minmax(300px, 1fr)) ;
+}
+.item{
+    width:100%;
+    background-color: rgb(37, 37, 37);
+    padding: 10px;
+    border-radius: 8px;
+   
+}
+.item img{
+    width: 100%;
+    height: 300px;
+    border-radius: 4px;
+}
+.item .wording-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.wording-content h2{
+    color: #fff;
+    font-weight: 400;
+
+}
+.btn{
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding:  0 4px;
+    color: #fff;
 }
