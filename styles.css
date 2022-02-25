@@ -3,3 +3,16 @@
     margin: 0;
     box-sizing: border-box;
 }
+.header{
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px;
+}
+form{
+    margin-top: 10px;
+    width: 100%;
+}
+form input{
+    width: 30%;
+    margin: auto;
+}
