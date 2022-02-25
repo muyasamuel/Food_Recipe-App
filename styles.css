@@ -11,8 +11,20 @@
 form{
     margin-top: 10px;
     width: 100%;
+   
 }
 form input{
     width: 30%;
     margin: auto;
+    height: 35px;
+    outline: none;
+}
+::placeholder{
+    text-align: center;
+    text-transform: capitalize;
+
+}
+#search-icon{
+    margin-left: -30px;
+    font-size: 20px;
 }
