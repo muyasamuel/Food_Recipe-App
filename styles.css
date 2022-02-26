@@ -12,6 +12,8 @@
     margin-top: 40px;
     padding: 10px;
     font-family: Quintessential, sans-serif ;
+    color: #fff;
+    text-transform: capitalize;
 }
 body{
     background-color: rgba(0, 0, 0, 0.9);
