@@ -13,6 +13,9 @@
     padding: 10px;
     font-family: Quintessential, sans-serif ;
 }
+body{
+    background-color: rgba(0, 0, 0, 0.9);
+}
 
 form{
     margin-top: 10px;
@@ -60,7 +63,7 @@ img{
 }
 .item{
     width:100%;
-    background-color: rgb(37, 37, 37);
+    background-color: rgba(37, 37, 37, 0.6);
     padding: 10px;
     border-radius: 8px;
     font-family: 'Oswald', sans-serif;
