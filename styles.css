@@ -75,6 +75,12 @@ img{
     font-weight: 400;
 
 }
+.item p{
+    color: #fff;
+    
+
+}
+
 .btn{
     text-decoration: none;
     border: 1px solid #fff;
