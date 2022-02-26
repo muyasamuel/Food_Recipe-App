@@ -33,9 +33,10 @@ function renderHtml(results){
                  <img src=${results.recipe.image} alt="">
                  <div class="wording-content">
                      <h2>${results.recipe.label}</h2>
-                     <a href="#" class="btn" >view Recipe</a>
+                     <a href="${results.recipe.url}" class="btn" >view Recipe</a>
                  </div>
-                 <p>calories present</p>
+                 <p>${results.recipe.dietLabels}</p>
+                 <p>${results.recipe.cuisineType}</p>
              </div>
       `
       searchContent.innerHTML = renderedHtml;
